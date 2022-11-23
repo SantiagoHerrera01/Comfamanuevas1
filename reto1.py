@@ -1,0 +1,28 @@
+print ("**********************")
+print ("Hamburguesas El Corral")
+print ("**********************")
+nombreUsuario= input("digite el nombre del cliente: ")
+cedulaUsuario= input("Digite la cedual del usuario: ")
+pedidoUsuario= input("Hamburguesa deseada: ")
+valorPedido= int(input("valor del pedido: "))
+cantidadPedido= int(input("Cantidad de hamburguesas: "))
+
+print ("**********************")
+print     ("Su pedido es")
+print ("**********************")
+
+#procesos
+multiplicacionValor=(valorPedido*cantidadPedido)
+#salidas
+print("Nombre")
+print(nombreUsuario)
+print("Cedula")
+print(cedulaUsuario)
+print("Su pedido es: ")
+print(pedidoUsuario)
+print("El valor de su pedido es: ")
+print(valorPedido)
+print("Total de hamburguesas pedidas: ")
+print(cantidadPedido)
+print("El total de su pedido es: ")
+print(multiplicacionValor)
